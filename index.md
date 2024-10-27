@@ -2,40 +2,48 @@
 layout: default
 ---
 
-My name is Jürgen Eckel and my passion is to 
-* connect tech with business
-* connect business with tech
-* satisfy customers
-* create new products for new markets
+# Technology & Business Innovation Leader
 
-I love to collaborate and work with people to achieve their goals. Goals on different levels of granularity
-* organizational development and structures
-* technological challenges 
-* customer challenges 
-* interdisciplinary communication
-* cross-functional collaboration
+## Professional Focus
+I bridge the gap between technology and business, delivering innovative solutions that create value and drive market growth. With extensive experience in cybersecurity and distributed ledger technology, I help organizations navigate complex technical challenges while ensuring business objectives are met.
 
-So far, I've been primarily active within the domains of
-* cyber security
-* distributed ledger technology
+## Core Competencies
+- Strategic Technology Leadership
+- Business & Technical Integration
+- Product Innovation & Development
+- Cross-functional Team Leadership
+- Enterprise Solutions Architecture
+- Customer Success Management
 
+## Technical Expertise
+### Cybersecurity
+- Advanced Malware Detection & Analysis
+- Endpoint Detection and Response (EDR)
+- Machine Learning & AI Implementation
+- Efficient Search Algorithms & PCA
+- Confidential Computing Solutions
 
-with focus on the following aspects
-* anti-malware deep tech
-* end-point thread detection and response (EDTR)
-* efficient search and PCA
-* machine learning and artificial intelligence
-* confidential computing
-* cryptographic primitives
-* distributed ledger technology
-* token economical modelling and services
-* SLA & contract crafting
-* guaranteeing SLAs
-* data privacy & GDPR
-* data center & cloud management
+### Blockchain & Distributed Systems
+- Distributed Ledger Technology
+- Token Economics & Service Design
+- Smart Contract Development
+- SLA Design & Implementation
+- Performance Guarantee Systems
 
-You can find more about me at
-* [LinkedIn](https://www.linkedin.com/in/j%C3%BCrgen-eckel-5066ab13/)
-* [Twitter](https://x.com/juergeneckel)
-* [BlueSky](https://bsky.app/profile/3rg3n.bsky.social)
-* [GitHub](https://github.com/eckelj)
+### Data & Privacy
+- GDPR Compliance
+- Data Privacy Architecture
+- Enterprise Data Center Management
+- Cloud Infrastructure Optimization
+- Cryptographic Implementation
+
+## Collaboration Approach
+I specialize in:
+- Facilitating organizational transformation
+- Solving complex technical challenges
+- Enhancing customer experience
+- Improving cross-functional communication
+- Building high-performance teams
+
+## Connect With Me
+[LinkedIn](https://www.linkedin.com/in/j%C3%BCrgen-eckel-5066ab13/) | [LinkedIn](https://www.linkedin.com/in/j%C3%BCrgen-eckel-5066ab13/) | [BlueSky](https://bsky.app/profile/3rg3n.bsky.social) | [GitHub](https://github.com/eckelj)
