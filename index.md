@@ -2,10 +2,6 @@
 layout: default
 ---
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
-
-[Link to another page](./another-page.html).
-
 My name is Jürgen Eckel and my passion is to 
 * connect tech with business
 * connect business with tech
