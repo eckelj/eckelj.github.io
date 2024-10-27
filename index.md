@@ -16,7 +16,13 @@ I love to collaborate and work with people to achieve their goals. Goals on diff
 * cross-functional collaboration
 
 So far, I've been primarily active within the domains of
-* cyber security (anti-malware deep tech and end-point thread detection and response (EDTR))
+* cyber security
+* distributed ledger technology
+
+
+with focus on the following aspects
+* anti-malware deep tech
+* end-point thread detection and response (EDTR)
 * efficient search and PCA
 * machine learning and artificial intelligence
 * confidential computing
