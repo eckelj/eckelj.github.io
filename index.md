@@ -46,4 +46,4 @@ I specialize in:
 - Building high-performance teams
 
 ## Connect With Me
-[LinkedIn](https://www.linkedin.com/in/j%C3%BCrgen-eckel-5066ab13/) | [LinkedIn](https://www.linkedin.com/in/j%C3%BCrgen-eckel-5066ab13/) | [BlueSky](https://bsky.app/profile/3rg3n.bsky.social) | [GitHub](https://github.com/eckelj)
+[LinkedIn](https://www.linkedin.com/in/j%C3%BCrgen-eckel-5066ab13/) | [Twitter/X](https://x.com/juergeneckel) | [BlueSky](https://bsky.app/profile/3rg3n.bsky.social) | [GitHub](https://github.com/eckelj)
