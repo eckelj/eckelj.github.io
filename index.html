@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Jürgen Eckel</title>
+  <meta name="description" content="Technology Leader in Cybersecurity &amp; Distributed Systems">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; }
+
+    body {
+      background: #f0f4f8;
+      padding: 50px;
+      font: 14px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      color: #444;
+      margin: 0;
+    }
+
+    a { color: #267CB9; text-decoration: none; }
+    a:hover, a:focus { color: #069; }
+    img { max-width: 100%; }
+    strong { color: #222; font-weight: 700; }
+    p, ul, ol, table { margin: 0 0 20px; }
+    h1, h2, h3 { margin: 0 0 20px; line-height: 1.1; }
+
+    /* ---- Layout ---- */
+    .wrapper { width: 860px; margin: 0 auto; }
+
+    /* ---- Sidebar ---- */
+    header {
+      width: 270px;
+      float: left;
+      position: fixed;
+      background: #0f172a;
+      padding: 28px 24px;
+      border-radius: 10px;
+      box-shadow: 0 4px 24px rgba(15, 23, 42, 0.2);
+      border-top: 4px solid #2563eb;
+    }
+
+    header h1 { margin: 0 0 8px; }
+
+    header h1 a {
+      color: #f8fafc;
+      font-size: 19px;
+      font-weight: 700;
+      letter-spacing: -0.3px;
+    }
+
+    header h1 a:hover { color: #f8fafc; font-weight: 700; }
+
+    header img {
+      border-radius: 50%;
+      border: 3px solid #2563eb;
+      margin: 14px 0;
+      display: block;
+      max-width: 160px;
+    }
+
+    header p {
+      color: #94a3b8;
+      font-size: 13px;
+      margin: 0 0 8px;
+    }
+
+    header a { color: #7dd3fc; }
+    header a:hover, header a:focus { color: #f8fafc; font-weight: normal; }
+
+    /* ---- Footer ---- */
+    footer {
+      width: 270px;
+      float: left;
+      position: fixed;
+      bottom: 50px;
+      background: #0f172a;
+      border-radius: 8px;
+      padding: 12px 24px;
+      box-shadow: 0 2px 12px rgba(15, 23, 42, 0.14);
+    }
+
+    footer p { margin: 0; color: #475569; font-size: 11px; }
+
+    /* ---- Content ---- */
+    section {
+      width: 500px;
+      float: right;
+      background: #fff;
+      border-radius: 10px;
+      padding: 36px 40px;
+      box-shadow: 0 2px 16px rgba(15, 23, 42, 0.07);
+      margin-bottom: 50px;
+    }
+
+    section h1 {
+      font-size: 22px;
+      color: #0f172a;
+      line-height: 1.4;
+      border-bottom: 3px solid #2563eb;
+      padding-bottom: 16px;
+      margin-bottom: 24px;
+    }
+
+    section h2 {
+      font-size: 10.5px;
+      font-weight: 700;
+      color: #2563eb;
+      text-transform: uppercase;
+      letter-spacing: 1.8px;
+      margin-top: 32px;
+      margin-bottom: 16px;
+    }
+
+    section p {
+      color: #475569;
+      line-height: 1.8;
+      font-size: 14px;
+    }
+
+    section p strong {
+      color: #0f172a;
+      display: block;
+      margin-bottom: 2px;
+    }
+
+    section ul { padding-left: 20px; }
+
+    section ul li {
+      color: #475569;
+      line-height: 1.8;
+      margin-bottom: 8px;
+      font-size: 14px;
+    }
+
+    section ul li strong { color: #0f172a; display: inline; }
+    section ul li::marker { color: #2563eb; }
+
+    hr {
+      border: 0;
+      background: #e2e8f0;
+      height: 1px;
+      margin: 24px 0;
+    }
+
+    /* ---- Table ---- */
+    table { width: 100%; border-collapse: collapse; }
+
+    th {
+      background: #0f172a;
+      color: #f8fafc;
+      padding: 10px 16px;
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: 0.6px;
+      text-align: left;
+    }
+
+    td {
+      color: #475569;
+      border-bottom: 1px solid #e2e8f0;
+      padding: 9px 16px;
+      font-size: 13.5px;
+    }
+
+    tr:nth-child(even) td { background: #f8fafc; }
+
+    /* ---- Connect ---- */
+    .connect { margin-top: 4px; }
+
+    .connect a {
+      display: inline-block;
+      padding: 7px 16px;
+      margin: 4px 4px 4px 0;
+      background: #0f172a;
+      color: #f8fafc;
+      border-radius: 6px;
+      font-size: 13px;
+      font-weight: 500;
+    }
+
+    .connect a:hover, .connect a:focus {
+      background: #2563eb;
+      color: #f8fafc;
+      font-weight: 500;
+    }
+
+    /* ---- Responsive ---- */
+    @media screen and (max-width: 960px) {
+      .wrapper { width: auto; margin: 0; }
+      header, section, footer { float: none; position: static; width: auto; }
+      header { padding: 20px; margin-bottom: 20px; }
+      section { padding: 24px 20px; }
+      footer { margin-top: 20px; }
+    }
+
+    @media screen and (max-width: 480px) {
+      body { padding: 15px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="wrapper">
+
+    <header>
+      <h1><a href="/">Jürgen Eckel</a></h1>
+      <img src="assets/img/1703752.jpeg" alt="Jürgen Eckel">
+      <p>Cybersecurity · Blockchain · Cloud</p>
+      <p><a href="https://github.com/eckelj">View My GitHub Profile</a></p>
+    </header>
+
+    <section>
+      <h1>Technology Leader in Cybersecurity &amp; Distributed Systems</h1>
+
+      <p>Delivering enterprise-grade solutions that bridge cutting-edge technology with measurable business outcomes. Proven track record building security products, distributed ledger platforms, and privacy-first data architectures that organizations rely on.</p>
+
+      <hr>
+
+      <h2>Impact Areas</h2>
+
+      <p>
+        <strong>Cybersecurity &amp; Threat Intelligence</strong>
+        Engineered advanced malware detection and EDR systems powered by machine learning and PCA-based algorithms — elevating enterprise endpoint protection and accelerating threat response. Designed confidential computing solutions enabling organizations to process sensitive workloads in zero-trust environments.
+      </p>
+
+      <p>
+        <strong>Blockchain &amp; Decentralized Platforms</strong>
+        Designed and shipped production-grade blockchain infrastructures — from token economic models to smart contract frameworks — that enable verifiable service agreements, automated SLA enforcement, and transparent performance guarantees at scale.
+      </p>
+
+      <p>
+        <strong>Cloud, Data &amp; Privacy</strong>
+        Led cloud infrastructure transformations and architected GDPR-compliant data platforms that reduce compliance risk while preserving operational agility. Expert in cryptographic implementation, enterprise data center management, and multi-cloud optimization.
+      </p>
+
+      <hr>
+
+      <h2>Professional Achievements</h2>
+
+      <ul>
+        <li><strong>Built and led cross-functional teams</strong> to take enterprise security products from concept through market launch</li>
+        <li><strong>Designed token economies and SLA frameworks</strong> for decentralized service platforms with automated performance guarantees</li>
+        <li><strong>Delivered confidential computing architectures</strong> enabling sensitive workload processing with cryptographic guarantees</li>
+        <li><strong>Drove organizational transformation</strong> aligning engineering execution with strategic business growth objectives</li>
+        <li><strong>Architected GDPR-compliant systems</strong> eliminating regulatory exposure without sacrificing performance</li>
+      </ul>
+
+      <hr>
+
+      <h2>Core Competencies</h2>
+
+      <table>
+        <thead>
+          <tr><th>Leadership &amp; Strategy</th><th>Technical Expertise</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Product Innovation &amp; Go-to-Market</td><td>Machine Learning &amp; AI Implementation</td></tr>
+          <tr><td>Enterprise Solutions Architecture</td><td>Endpoint Detection &amp; Response (EDR)</td></tr>
+          <tr><td>Cross-functional Team Leadership</td><td>Confidential Computing</td></tr>
+          <tr><td>Customer Success Management</td><td>Distributed Ledger Technology</td></tr>
+          <tr><td>Business &amp; Technical Integration</td><td>Cryptographic Systems &amp; GDPR</td></tr>
+        </tbody>
+      </table>
+
+      <hr>
+
+      <div class="connect">
+        <a href="https://www.linkedin.com/in/j%C3%BCrgen-eckel-5066ab13/"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
+        <a href="https://x.com/juergeneckel"><i class="fa-brands fa-x-twitter"></i> Twitter/X</a>
+        <a href="https://bsky.app/profile/3rg3n.bsky.social"><i class="fa-brands fa-bluesky"></i> BlueSky</a>
+        <a href="https://github.com/eckelj"><i class="fa-brands fa-github"></i> GitHub</a>
+      </div>
+    </section>
+
+    <footer>
+      <p>Jürgen Eckel &mdash; GitHub Pages</p>
+    </footer>
+
+  </div>
+</body>
+</html>
