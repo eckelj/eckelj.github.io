@@ -2,48 +2,50 @@
 layout: default
 ---
 
-# Technology & Business Innovation Leader
+# Technology Leader in Cybersecurity & Distributed Systems
 
-## Professional Focus
-I bridge the gap between technology and business, delivering innovative solutions that create value and drive market growth. With extensive experience in cybersecurity and distributed ledger technology, I help organizations navigate complex technical challenges while ensuring business objectives are met.
+Delivering enterprise-grade solutions that bridge cutting-edge technology with measurable business outcomes. Proven track record building security products, distributed ledger platforms, and privacy-first data architectures that organizations rely on.
+
+---
+
+## Impact Areas
+
+**Cybersecurity & Threat Intelligence**
+Engineered advanced malware detection and EDR systems powered by machine learning and PCA-based algorithms — elevating enterprise endpoint protection and accelerating threat response. Designed confidential computing solutions enabling organizations to process sensitive workloads in zero-trust environments.
+
+**Blockchain & Decentralized Platforms**
+Designed and shipped production-grade blockchain infrastructures — from token economic models to smart contract frameworks — that enable verifiable service agreements, automated SLA enforcement, and transparent performance guarantees at scale.
+
+**Cloud, Data & Privacy**
+Led cloud infrastructure transformations and architected GDPR-compliant data platforms that reduce compliance risk while preserving operational agility. Expert in cryptographic implementation, enterprise data center management, and multi-cloud optimization.
+
+---
+
+## Professional Achievements
+
+- **Built and led cross-functional teams** to take enterprise security products from concept through market launch
+- **Designed token economies and SLA frameworks** for decentralized service platforms with automated performance guarantees
+- **Delivered confidential computing architectures** enabling sensitive workload processing with cryptographic guarantees
+- **Drove organizational transformation** aligning engineering execution with strategic business growth objectives
+- **Architected GDPR-compliant systems** eliminating regulatory exposure without sacrificing performance
+
+---
 
 ## Core Competencies
-- Strategic Technology Leadership
-- Business & Technical Integration
-- Product Innovation & Development
-- Cross-functional Team Leadership
-- Enterprise Solutions Architecture
-- Customer Success Management
 
-## Technical Expertise
-### Cybersecurity
-- Advanced Malware Detection & Analysis
-- Endpoint Detection and Response (EDR)
-- Machine Learning & AI Implementation
-- Efficient Search Algorithms & PCA
-- Confidential Computing Solutions
+| Leadership & Strategy | Technical Expertise |
+|---|---|
+| Product Innovation & Go-to-Market | Machine Learning & AI Implementation |
+| Enterprise Solutions Architecture | Endpoint Detection & Response (EDR) |
+| Cross-functional Team Leadership | Confidential Computing |
+| Customer Success Management | Distributed Ledger Technology |
+| Business & Technical Integration | Cryptographic Systems & GDPR |
 
-### Blockchain & Distributed Systems
-- Distributed Ledger Technology
-- Token Economics & Service Design
-- Smart Contract Development
-- SLA Design & Implementation
-- Performance Guarantee Systems
+---
 
-### Data & Privacy
-- GDPR Compliance
-- Data Privacy Architecture
-- Enterprise Data Center Management
-- Cloud Infrastructure Optimization
-- Cryptographic Implementation
-
-## Collaboration Approach
-I specialize in:
-- Facilitating organizational transformation
-- Solving complex technical challenges
-- Enhancing customer experience
-- Improving cross-functional communication
-- Building high-performance teams
-
-## Connect With Me
-[LinkedIn](https://www.linkedin.com/in/j%C3%BCrgen-eckel-5066ab13/) | [Twitter/X](https://x.com/juergeneckel) | [BlueSky](https://bsky.app/profile/3rg3n.bsky.social) | [GitHub](https://github.com/eckelj)
+<div class="connect">
+  <a href="https://www.linkedin.com/in/j%C3%BCrgen-eckel-5066ab13/"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
+  <a href="https://x.com/juergeneckel"><i class="fa-brands fa-x-twitter"></i> Twitter/X</a>
+  <a href="https://bsky.app/profile/3rg3n.bsky.social"><i class="fa-brands fa-bluesky"></i> BlueSky</a>
+  <a href="https://github.com/eckelj"><i class="fa-brands fa-github"></i> GitHub</a>
+</div>
